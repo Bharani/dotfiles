@@ -1,0 +1,122 @@
+#stjerm.key: f12
+#stjerm.foreground: #00000
+URxvt.buffered:         true
+URxvt.background:       black
+URxvt.foreground:       white
+URxvt.cursorColor:      green
+URxvt.underlineColor:   yellow
+urxvt*font: xft:Monospace:pixelsize=16
+#urxvt*font: xft:Terminus
+#urxvt*boldFont: xft:Terminus
+! URxvt.boldFont:         9x15bold 
+URxvt.perl-ext-common:  default,tabbed,matcher,clipboard
+URxvt.urlLauncher:     /usr/bin/firefox
+URxvt.matcher.button:  1
+#Urxvt.secondaryScroll:  true 
+URxvt.scrollBar: off
+#URxvt*scrollBar_right:true
+urxvt*depth:             32
+#transparent=0000 opaque=ffff
+urxvt*background: rgba:1111/1111/1111/dddd
+!fade text n% upon unfocus
+urxvt*internalBorder:     5
+!fade text n% upon unfocus
+urxvt*fading:             20
+!darken=(0 to 100) lighten=(-1 to -100)
+urxvt*shading:            30
+urxvt*tintColor:          black
+!save n lines of scrollback buffer
+urxvt*saveLines:         9999 
+!flash screen for attention
+urxvt*scrollTtyKeypress:  true
+!jump to bottom (prompt) when tty gets new lines
+urxvt*secondaryScroll:    true
+!de-iconify (map) on receipt of a bell character
+urxvt*mapAlert:           true
+!inhibit writing record into the system log file utmp
+urxvt*inheritPixmap:      true
+!screen dump settings
+urxvt*print-pipe:         cat > $(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
+!secondary screen scroll (default enabled)
+!flash screen for attention
+urxvt*visualBell:         true
+urxvt*scrollTtyOutput:off
+
+
+#URxvt*transparent: true
+#URxvt*shading: 20
+!-- Tango color scheme
+! Black
+URxvt*color0: #2e3436
+URxvt*color8: #555753
+
+! Red
+URxvt*color1: #cc0000
+URxvt*color9: #ef2929
+
+! Green
+URxvt*color2: #4e9a06
+URxvt*color10: #8ae234
+
+! Yellow
+URxvt*color3: #c4a000
+URxvt*color11: #fce94f
+
+! Blue
+URxvt*color4: #00AFFF
+URxvt*color12: #729fcf
+
+! Purple
+URxvt*color5: #75507b
+URxvt*color13: #ad7fa8
+
+! Cyan
+URxvt*color6: #0b939b
+URxvt*color14: #00f5e9
+
+! White
+URxvt*color15: #eeeeec
+URxvt*color7: #d3d7cf
+
+Xft.dpi: 96
+Xft.antialias: 1
+Xft.hinting:    1
+Xft.hintstyle:  hintfull
+Xft.rgba:       rgb
+xterm*faceName: DejaVu Sans Mono
+xterm*faceSize: 10
+xterm*font1: -*-*-*-*-*-*-2-*-*-*-*-*-*-*
+xterm*font2: -misc-fixed-*-r-normal-*-8-*-*-*-*-*-iso8859-*
+xterm*font3: -b&h-lucidatypewriter-bold-*-*-*-12-*-*-*-*-*-*-*
+xterm*font4: -*-screen-bold-r-normal-*-16-*-*-*-*-*-iso8859-*
+xterm*font5: -*-lucidatypewriter-medium-*-*-*-18-*-*-*-*-*-*-*
+xterm*font6: -*-lucidatypewriter-medium-*-*-*-20-*-*-*-*-*-*-*
+xterm*font7: -dec-terminal-bold-r-normal-*-14-*-*-*-*-*-iso8859-*
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          512
+xterm*scrollTtyKeypress:  true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          true
+xterm*rightScrollBar:     true
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
+
+
+
+
+XTerm*background: black
+XTerm*foreground: white
+XTerm*pointerColor: red
+XTerm*pointerColorBackground: black
+XTerm*cursorColor: navy
+XTerm*internalBorder: 3
+XTerm*loginShell: true
+XTerm*scrollBar: false
+XTerm*scrollKey: true
+XTerm*saveLines: 1000
+XTerm*multiClickTime: 250
+
+

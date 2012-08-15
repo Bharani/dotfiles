@@ -1,0 +1,22 @@
+#user                    "bharani"
+#port			"6600"
+bind_to_address       "127.0.0.1"
+port                  "6600"
+music_directory         "~/Music"
+db_file                 "~/.mpd/mpd.db"
+log_file                "~/.mpd/mpd.log"
+#error_file              "~/.mpd/mpd.error"
+pid_file                "~/.mpd/mpd.pid"
+state_file              "~/.mpd/mpdstate"
+gapless_mp3_playback			"yes"
+audio_output {
+	type		"alsa"
+	name		"My ALSA Device"
+	     }
+
+#audio_output {
+#  type    "alsa"
+#  name    "equal"
+#  device  "plug:plugequal"
+#}
+

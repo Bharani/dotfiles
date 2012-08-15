@@ -1,0 +1,12 @@
+# .conkyrc - Edited from various examples compiled from the web
+# Used by Bharanideepan 
+# --- Window Layout & Options --- #
+net_avg_samples 2
+no_buffers yes
+out_to_console yes
+# --- Colours, Sizes, Fonts & Margins --- #
+update_interval 2.0
+TEXT
+|${mpd_smart 30}|$mpd_percent|$mem|${cpu cpu1}%|${cpu cpu2}%|$diskio|${downspeed eth0} ${upspeed eth0}|${time %I:%M:%S}
+
+

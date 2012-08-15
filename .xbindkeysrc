@@ -1,0 +1,139 @@
+###########################
+# xbindkeys configuration #
+###########################
+#
+# Version: 0.1.3
+#
+# If you edit this, do not forget to uncomment any lines that you change.
+# The pound(#) symbol may be used anywhere for comments.
+#
+# A list of keys is in /usr/include/X11/keysym.h and in
+# /usr/include/X11/keysymdef.h 
+# The XK_ is not needed. 
+#
+# List of modifier (on my keyboard): 
+#   Control, Shift, Mod1 (Alt), Mod2 (NumLock), 
+#   Mod3 (CapsLock), Mod4, Mod5 (Scroll). 
+#
+# Another way to specifie a key is to use 'xev' and set the 
+# keycode with c:nnn or the modifier with m:nnn where nnn is 
+# the keycode or the state returned by xev 
+#
+# This file is created by xbindkey_config 
+# The structure is : 
+# # Remark 
+# "command" 
+# m:xxx + c:xxx 
+# Shift+... 
+
+
+
+
+#keystate_numlock = enable
+#keystate_scrolllock = enable
+#keystate_capslock = enable
+
+
+
+#Mpc seek
+"mpc seek +3%"
+    m:0xc + c:46
+    Control+Alt + l 
+
+#Mpc seek-Copy
+"mpc seek +3%"
+    m:0xc + c:114
+    Control+Alt + Right 
+
+#Mpc seek-1
+"mpc seek -3%"
+    m:0xc + c:43
+    Control+Alt + h 
+
+#Mpc seek-1-Copy
+"mpc seek -3%"
+    m:0xc + c:113
+    Control+Alt + Left 
+
+#Mpctoggle
+"mpc toggle"
+    m:0xc + c:118
+    Control+Alt + Insert 
+
+#dplay
+"dplay -j"
+    m:0x40 + c:33
+    Mod4 + p 
+
+#taskman
+"urxvt -e htop"
+    m:0x5 + c:9
+    Control+Shift + Escape 
+
+#Volup
+"amixer -q set Master 3+ unmute"
+    m:0xc + c:111
+    Control+Alt + Up 
+
+#Voldown
+"amixer -q set Master 3- unmute"
+    m:0xc + c:116
+    Control+Alt + Down 
+
+#mpcnext
+"mpc prev"
+    m:0xc + c:44
+    Control+Alt + j 
+
+#mpcnext-Copy
+"mpc next"
+    m:0xc + c:117
+    Control+Alt + Next 
+
+#mpcprev
+"mpc next"
+    m:0xc + c:45
+    Control+Alt + k 
+
+#mpcprev-Copy
+"mpc prev"
+    m:0xc + c:112
+    Control+Alt + Prior 
+
+#dmenufm
+"dmenfm"
+    m:0x40 + c:25
+    Mod4 + w 
+
+#Thunar
+"thunar"
+    m:0x40 + c:26
+    Mod4 + e 
+
+#xkill
+"xkill"
+    m:0x4 + c:9
+    Control + Escape 
+
+#Dmenu
+"mend"
+    m:0x40 + c:27
+    Mod4 + r 
+
+#Mute
+"amixer sset Master toggle"
+    m:0x44 + c:118
+    Control+Mod4 + Insert 
+
+#mpc toggle
+"mpc toggle"
+    m:0x4 + c:118
+    Control + Insert 
+
+#Print Screen
+"scrot"
+    m:0x0 + c:107
+    Print 
+
+#
+# End of xbindkeys configuration

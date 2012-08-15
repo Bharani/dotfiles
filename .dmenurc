@@ -1,0 +1,2 @@
+DMENU='dmenu -i -fn Sans-10  -nb #000000 -nf #FFFFFF -sb #FFFFFF -sf #000000 -l 20 '
+
